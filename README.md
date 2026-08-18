@@ -242,37 +242,6 @@ Media4Dummies is an ongoing project. Potential future improvements include:
 
 ---
 
-## 🤝 Contributing
-
-Contributions, bug reports, feature requests, and new plugin ideas are welcome!
-
-### Development workflow
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-3. Make your changes
-4. Commit your changes
-
-```bash
-git commit -m "Add AmazingFeature"
-```
-
-5. Push the branch
-
-```bash
-git push origin feature/AmazingFeature
-```
-
-6. Open a Pull Request
-
-If you're adding a new plugin, please try to keep it self-contained and follow the existing plugin architecture.
-
----
 
 ## 📜 License
 
