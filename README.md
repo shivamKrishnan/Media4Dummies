@@ -201,28 +201,6 @@ The project focuses on repetitive operations that commonly occur when maintainin
 
 Operations are designed with **batch processing** in mind, reducing repetitive manual work and making large-scale media organization easier.
 
----
-
-## 🔌 Creating a Plugin
-
-Adding a new feature is designed to be straightforward.
-
-Create a new Python file inside the `Plugins/` directory and inherit from the base `Plugin` class.
-
-For example:
-
-```python
-from plugin_base import Plugin
-
-
-class MyNewPlugin(Plugin):
-    # Plugin implementation
-    pass
-```
-
-The plugin can then be integrated into the existing plugin system without modifying unrelated features.
-
-> The exact methods required by a plugin depend on the interface defined in `plugin_base.py`.
 
 ---
 
